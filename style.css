@@ -1,33 +1,62 @@
 body{
 
+
 margin:0;
-font-family:Arial;
+
+font-family:Arial, sans-serif;
+
 background:#111;
+
 color:white;
+
 
 }
 
 
+
+/* bouton 3 traits */
 
 .menu-btn{
 
+
 position:fixed;
 
-top:20px;
-left:20px;
 
-font-size:30px;
+left:15px;
 
-background:none;
+top:15px;
+
+
+z-index:1000;
+
+
+font-size:32px;
+
+
+background:#222;
+
 
 border:none;
 
+
 color:white;
+
+
+border-radius:8px;
+
+
+padding:8px 14px;
+
 
 cursor:pointer;
 
+
 }
 
+
+
+
+/* menu */
 
 
 #sidebar{
@@ -35,12 +64,15 @@ cursor:pointer;
 
 position:fixed;
 
-left:-300px;
+
+left:-280px;
+
 
 top:0;
 
 
 width:260px;
+
 
 height:100%;
 
@@ -48,29 +80,39 @@ height:100%;
 background:#181818;
 
 
-padding-top:30px;
-
-
 transition:0.3s;
 
 
+z-index:999;
+
+
+padding-top:70px;
+
+
 }
+
 
 
 
 #sidebar.active{
 
+
 left:0;
 
+
 }
+
 
 
 
 #sidebar h2{
 
+
 text-align:center;
 
+
 }
+
 
 
 
@@ -80,7 +122,7 @@ text-align:center;
 display:block;
 
 
-padding:15px;
+padding:16px;
 
 
 color:white;
@@ -96,6 +138,7 @@ font-size:18px;
 
 
 
+
 #sidebar a:hover{
 
 
@@ -106,6 +149,10 @@ background:#333;
 
 
 
+
+/* contenu */
+
+
 .content{
 
 
@@ -113,6 +160,37 @@ text-align:center;
 
 
 padding-top:150px;
+
+
+}
+
+
+
+.play{
+
+
+display:inline-block;
+
+
+margin-top:30px;
+
+
+background:#00aaff;
+
+
+padding:15px 35px;
+
+
+border-radius:10px;
+
+
+color:white;
+
+
+text-decoration:none;
+
+
+font-size:22px;
 
 
 }
