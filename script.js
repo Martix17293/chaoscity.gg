@@ -1,6 +1,8 @@
 function openMenu(){
 
-document.getElementById("sidebar")
+document
+.getElementById("sidebar")
 .classList.toggle("active");
+
 
 }
