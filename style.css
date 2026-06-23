@@ -1,1 +1,83 @@
+body {
 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+
+}
+
+
+header {
+
+    padding: 100px 20px;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.8)
+    ),
+    url("https://images.unsplash.com/photo-1511512578047-dfb367046420");
+
+    background-size: cover;
+
+}
+
+
+h1 {
+
+    font-size: 60px;
+
+}
+
+
+p {
+
+    font-size: 20px;
+
+}
+
+
+.button {
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:15px 40px;
+
+    background:#00aaff;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:22px;
+
+}
+
+
+.button:hover {
+
+    background:#0088cc;
+
+}
+
+
+section {
+
+    padding:50px;
+
+}
+
+
+footer {
+
+    padding:20px;
+
+    background:#000;
+
+}
